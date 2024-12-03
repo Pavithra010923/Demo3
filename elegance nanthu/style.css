@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarcontainer{
+    background-color: #252525d5;
+    height: 70px;
+    border-bottom: 3px solid #AB9D6B;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+
+}
+.navcontainertitle img{
+    margin-top: 13px;
+    margin-left: 20px;
+    float: left;
+}
+.navcontainertitle h1{
+    color: white;
+    padding-top: 0px;
+    margin-left: 20px;float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #AB9D6B;
+    font-weight: 900;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 50px;
+}
+nav ul{
+    margin-left: 500px;
+    padding-top: 26;
+}
+.containerhome2{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.homebox{
+    background-color: black;
+    height: 500px;
+    width: 33.2%;
+    flex-grow: 1;
+
+}
+.fonthome h1{
+    text-align: center;
+    font-size: 2em;
+    color: #AB9D6B;
+
+}
+.fonthome{
+    margin-top: 40%;
+}
+.homebox p{
+    margin-top: 30%;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.815);
+}
+.btnhome{
+    width: 55%;
+    margin-top: 45%;
+    margin-left: 30%;
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background-color: #AB9D6B;
+
+}
+.aboutcon2{
+    height: 70%;
+    background-color: black;
+}
+.aboutbox{
+    background-color: black
+}
+.aboutbox h1{
+    color: #AB9D6B;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+   
+
+}
+.contsplit{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxinsideabout{
+    height: 400px;
+    width: 50%;
+    
+
+}
+.boxinsideabout p{
+    color: rgba(255, 255, 255, 0.76);
+}
+.boxinsideabout h2{
+    color: #AB9D6B;
+}
+.boxinsideabout a{
+    color: #AB9D6B;
+}
+.fullabout{
+    position: relative;
+}
+.aboutbox{
+    position: absolute;
+    top: 300;
+    right: 1;
+}
+.fullabout .btnabout{
+    background-color:#AB9D6B ;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    
+    
+}
+.servicemain{
+    height: 640px;
+    background-color: black;
+}
+.servicemain h1{
+    color: #AB9D6B;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.9em;
+    font-weight: 900;
+    margin-top: 0px;
+    
+}
+.servicemain p{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.76);
+
+}
+.servicemain a{
+    color: #AB9D6B;
+}
+.boxservice{
+    width: 50%;
+    height: 300px;
+    position: relative;
+
+
+}
+.boxservice h2{
+    color: white;
+    font-size: 1.3em;
+    text-align: end;
+    margin-bottom: 0px;
+    padding-right: 30px;
+}
+.boxservice p{
+    color: white;
+    margin-top: 0px;
+    text-align: justify;
+padding:10px 30px 0px 30px;
+}
+.boxservice h3{
+    color:white;
+    text-align: start;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    font-size: 1.3em;
+}
+.boxforservice-in h1{
+    margin-top: 0px;
+    color: #AB9D6B;
+    margin-top: 0px;
+    padding: 55px;
+    border-bottom: 0px;
+    
+}
+.boxforservice-in span{
+    color: white;
+    font-size: 0.6em;
+
+}
+.boxforservice-in{
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    text-align: center;
+    border: 2px solid white;
+    backdrop-filter: blur(1.5px);
+}
+.conportfolio{
+    height: 600px;
+    background-color: black;
+}
+.conportfolio h1{
+    color: #AB9D6B;
+    padding-top: 130px;
+    letter-spacing: 10px;
+    font-size: 1.8em;
+    font-weight: 1000;
+    margin-top: 0px;
+    z-index: 10;
+    text-align: center;
+}
+.imgsport{
+    background-color: #AB9D6B;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cobtactcon input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border: 1px solid #AB9D6B;
+    margin-left: 10%;
+    padding-left: 20px;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    font-size: 1.2em;
+
+    
+
+}
+.cobtactcon input:focus{
+    outline: none;
+
+}
+.cobtactcon input::placeholder{
+    font-size: 1.2em;
+    color: #AB9D6B;
+
+}
+.cobtactcon textarea{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border: 2px solid #AB9D6B;
+    background: transparent;
+    height: 200px;
+    color: white;
+
+    font-size: 1.2em;
+
+}
+.cobtactcon textarea:focus{
+    outline: none;
+
+
+}
+.cobtactcon textarea::placeholder{
+    font-size: 1.2em;
+    padding-left: 20px;
+    color: #AB9D6B;
+
+}
